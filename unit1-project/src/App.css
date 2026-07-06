@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: antiquewhite;
+}
+
+body {
+    background-color: darkslategray;
+}
