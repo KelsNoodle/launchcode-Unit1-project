@@ -1,10 +1,35 @@
-.header {
+header {
     display: flex;
     justify-content: right;
     align-items: center;
     color: antiquewhite;
+    font-size: x-large;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 body {
     background-color: darkslategray;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul a{
+    display: block;
+    color: antiquewhite;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: chocolate;
 }
