@@ -9,13 +9,14 @@ header {
 
 
 main {
-    display: flex;
+    display: grid;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
 
 body {
-    background-color: darkslategray;
+    background-color: #2f4f4f;
 }
 
 nav ul {
@@ -31,5 +32,17 @@ nav ul a{
 }
 
 nav ul a:hover {
-    color: chocolate;
+    color: #f98837;
+}
+
+#greeting {
+    align-content: center;
+    color: antiquewhite;
+    font-size: large;
+    text-align: center;
+}
+
+#cardpack:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }

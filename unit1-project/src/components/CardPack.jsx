@@ -1,6 +1,6 @@
 function CardPack() {
     return(
-        <div>
+        <div id="cardpack">
             <img  src="CardPackImg.png" alt="card pack" height="400"></img> 
         </div>   
     )
