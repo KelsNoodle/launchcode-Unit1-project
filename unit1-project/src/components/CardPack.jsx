@@ -1,7 +1,7 @@
 function CardPack() {
     return(
         <div id="cardpack">
-            <img  src="CardPackImg.png" alt="card pack" height="400"></img> 
+            <img  src="card-pack.png" alt="card pack" height="400"></img> 
         </div>   
     )
 }
