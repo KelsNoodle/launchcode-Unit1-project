@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+
+
+main {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background-color: #2f4f4f;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul a{
+    display: block;
+    color: antiquewhite;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: #f98837;
+}
+
+#greeting {
+    align-content: center;
+    color: antiquewhite;
+    font-size: large;
+    text-align: center;
+}
+
+#cardpack:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
