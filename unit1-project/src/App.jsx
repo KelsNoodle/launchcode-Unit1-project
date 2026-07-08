@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import Cardpack from './components/CardPack'
 import Greeting from './components/Greeting'
+import PackOpen from './components/PackOpen'
 
 function App() {
    return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Greeting />
         <Cardpack /> 
+        <PackOpen />
       </main>
            
     </>
