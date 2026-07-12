@@ -11,7 +11,6 @@ function App() {
       <Header />
       <main>
         <Greeting />
-        <Cardpack /> 
         <PackOpen />
       </main>
            
