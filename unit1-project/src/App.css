@@ -45,9 +45,11 @@ nav ul a:hover {
 #cardpack {
     display: flex;
     justify-content: center;
+    transition: transform 0.1s
 }
 
 #cardpack:hover {
     transform: scale(1.1);
     cursor: pointer;
+    filter: drop-shadow(0px 50px 25px)
 }

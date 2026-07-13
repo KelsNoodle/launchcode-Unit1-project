@@ -2,8 +2,7 @@ import { useState } from "react";
 import cardsData from "../data/cards.json";
 import CardPack from "./CardPack";
 
-function pickRandomCards(list, count) {
-    // const n = math.floor(math.random() *31);
+function pickRandomCards(list, count) { // Generates a random number and then selects cards (5) in order of the starting array number
     const n = list.length;
     if (n === 0) return [];
 
@@ -19,12 +18,12 @@ function pickRandomCards(list, count) {
 export default function PackOpen() {
     const [packCards, setPackCards] = useState([]);
 
-    const openPack = () => {
+    const openPack = () => { //Allows to open a pack of 5 cards, if there are still opened cards, does nothing
         if (packCards.length > 0) return;
         setPackCards(pickRandomCards(cardsData, 5));
     };
 
-    const dismissTopCard = () => {
+    const dismissTopCard = () => { //Slices off the card at the front of the array until array is empty
         setPackCards((prev) => prev.slice(1));
     }
     const topCard = packCards[0];
@@ -52,7 +51,7 @@ export default function PackOpen() {
                                     display: "block",
                                     margin: "0 auto"
                                     }}
-                    />
+                    />  
                     </div>
             )}
         </div>
