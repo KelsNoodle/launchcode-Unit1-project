@@ -1,7 +1,7 @@
-function CardPack() {
+function CardPack({ onOpen }) {
     return(
-        <div id="cardpack">
-            <img  src="CardPackImg.png" alt="card pack" height="400"></img> 
+        <div id="cardpack" onClick={onOpen} role="button">
+            <img  src="card-pack.png" alt="card pack" height="400"></img> 
         </div>   
     )
 }

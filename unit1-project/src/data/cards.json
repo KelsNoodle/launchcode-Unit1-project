@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name":"bird1",
+        "card":"test-card.png"
+    },
+    {
+        "id":2,
+        "name":"bird2",
+        "card":"test-card.png"
+    },
+    {
+        "id":3,
+        "name":"bird3",
+        "card":"test-card.png"
+    },
+    {
+        "id":4,
+        "name":"bird4",
+        "card":"test-card.png"
+    },
+    {
+        "id":5,
+        "name":"bird5",
+        "card":"test-card.png"
+    },
+    {
+        "id":6,
+        "name":"bird6",
+        "card":"test-card.png"
+    }
+]
