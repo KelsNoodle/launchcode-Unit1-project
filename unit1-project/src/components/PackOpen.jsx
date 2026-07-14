@@ -33,8 +33,8 @@ export default function PackOpen() {
             <CardPack onOpen={openPack} />
 
             {packCards.length > 0 && (
-                <div
-                onClick={(e) => e.preventDefault()}
+                <div id="drawncardDiv"
+                onClick={(e) => e.preventDefault()} 
                     style={{
                      position: "fixed",
                      inset: 0,
@@ -45,12 +45,13 @@ export default function PackOpen() {
                      justifyContent: "center"
                     }}
                 >
-                    <img src={topCard.card} alt={topCard.name} onClick={dismissTopCard} style={{
-                                    height: "400px",
-                                    cursor: "pointer",
-                                    display: "block",
-                                    margin: "0 auto"
-                                    }}
+                    <img src={topCard.card} alt={topCard.name} onClick={dismissTopCard} id="drawncards"
+                        style={{
+                                height: "400px",
+                                cursor: "pointer",
+                                display: "block",
+                                margin: "0 auto"
+                                }}
                     />  
                     </div>
             )}
