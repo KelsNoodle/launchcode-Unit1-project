@@ -1,8 +1,8 @@
 [
     {
         "id":1,
-        "name":"bird1",
-        "card":"test-card.png"
+        "name":"American Robin",
+        "card":"americanrobin.png"
     },
     {
         "id":2,
