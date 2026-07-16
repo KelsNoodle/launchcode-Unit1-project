@@ -1,4 +1,4 @@
-function Greeting() {
+export default function Greeting() {
     return(
         <div id="greeting">
             <p>Welcome back, Username!</p>
@@ -6,5 +6,3 @@ function Greeting() {
         </div>
     )
 }
-
-export default Greeting;
