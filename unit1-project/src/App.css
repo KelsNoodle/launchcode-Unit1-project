@@ -22,6 +22,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    padding-bottom: 50px;
 }
 
 body {
@@ -61,6 +62,10 @@ button {
     background-color: #f98837;
     border-radius: 5px;
     
+}
+
+ul {
+    color: #f5deb3;
 }
 
 nav ul {
