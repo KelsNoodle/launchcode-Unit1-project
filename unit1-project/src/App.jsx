@@ -4,6 +4,7 @@ import Header from './components/Header'
 import AboutMe from './components/About'
 import Home from './components/Home'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
    return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>
+      <Footer />
            
     </>
   )
