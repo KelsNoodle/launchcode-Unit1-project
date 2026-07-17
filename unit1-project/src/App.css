@@ -11,6 +11,7 @@ p {
     display:flex;
     word-wrap: break-word;
     text-indent: 15px;
+    justify-content: center;
 }
 
 a {
