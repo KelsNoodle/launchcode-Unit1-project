@@ -26,6 +26,34 @@ body {
     background-color: #2f4f4f;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding: 20px;
+}
+
+label {
+    color: #f5deb3;
+    display: block;
+}
+
+input {
+    border-radius: 5px;
+    background-color: #f5deb390;
+}
+
+textarea{
+    border-radius: 5px;
+    background-color: #f5deb390;
+}
+
+button {
+    background-color: #f98837;
+    border-radius: 5px;
+    
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -40,6 +68,10 @@ nav ul a{
 
 nav ul a:hover {
     color: #f98837;
+}
+
+.form-items {
+    padding: 15px;
 }
 
 #greeting {
