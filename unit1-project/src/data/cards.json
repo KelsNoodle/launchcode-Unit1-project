@@ -1,32 +1,72 @@
 [
     {
         "id":1,
-        "name":"American Robin",
-        "card":"americanrobin.png"
+        "name":"Chimney Swift",
+        "card":"Chimney-Swift.png"
     },
     {
         "id":2,
-        "name":"bird2",
-        "card":"test-card.png"
+        "name":"Atlantic Puffin",
+        "card":"Atlantic-Puffin.png"
     },
     {
         "id":3,
-        "name":"bird3",
-        "card":"test-card.png"
+        "name":"Bearded Reedling",
+        "card":"Bearded-Reedling.png"
     },
     {
         "id":4,
-        "name":"bird4",
-        "card":"test-card.png"
+        "name":"Bearded Vulture",
+        "card":"Bearded-Vulture.png"
     },
     {
         "id":5,
-        "name":"bird5",
-        "card":"test-card.png"
+        "name":"Eurasian Eagle Owl",
+        "card":"Eurasian-Eagle-Owl.png"
     },
     {
         "id":6,
-        "name":"bird6",
-        "card":"test-card.png"
+        "name":"European Starling",
+        "card":"European-Starling.png"
+    },
+    {
+        "id":7,
+        "name":"Goldcrest",
+        "card":"Goldcrest.png"
+    },
+    {
+        "id":8,
+        "name":"Long-Tailed Tit",
+        "card":"Long-Tailed-Tit.png"
+    },
+    {
+        "id":9,
+        "name":"Osprey",
+        "card":"Osprey.png"
+    },
+    {
+        "id":10,
+        "name":"Peregrine Falcon",
+        "card":"Peregrine-Falcon.png"
+    },
+    {
+        "id":11,
+        "name":"White Wingtail",
+        "card":"White-Wingtail.png"
+    },
+    {
+        "id":12,
+        "name":"Wilson's Snipe",
+        "card":"Wilsons-Snipe.png"
+    }, 
+    {
+        "id":13,
+        "name":"Common Eider",
+        "card":"Common-Eider.png"
+    },
+    {
+        "id":15,
+        "name":"Smew",
+        "card":"Smew.png"
     }
 ]
